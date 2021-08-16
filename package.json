@@ -1,0 +1,29 @@
+{
+  "name": "bookstore-app",
+  "version": "1.0.0",
+  "description": "A online bookstore",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/just-osaze/Bookstore-App.git"
+  },
+  "author": "Osaze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/just-osaze/Bookstore-App/issues"
+  },
+  "homepage": "https://github.com/just-osaze/Bookstore-App#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.12"
+  }
+}
